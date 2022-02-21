@@ -5,7 +5,7 @@ import {
   Routes,
   Route
 } from "react-router-dom";
-import { AboutPage, HomePage } from "./pages";
+import { AboutPage, ContactPage, HomePage } from "./pages";
 
 const App: React.FC = () => {
 
@@ -15,6 +15,7 @@ const App: React.FC = () => {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
+          <Route path="/contact" element={<ContactPage />} />
         </Routes>
       </BrowserRouter>
     </div>
