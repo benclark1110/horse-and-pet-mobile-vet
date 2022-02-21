@@ -6,11 +6,13 @@ import {
   Route
 } from "react-router-dom";
 import { AboutPage, ContactPage, HomePage } from "./pages";
+import NavBar from './components/molecules/app-navbar/app-navbar';
 
 const App: React.FC = () => {
 
   return (
     <div>
+      <NavBar/>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<HomePage />} />
