@@ -1,10 +1,9 @@
-import React from 'react';
+import * as React from 'react';
 
-export const HomePage: React.FunctionComponent = () => {
-
+export const HomePage: React.FC = () => {
     return (
-        <div>------Home Page------</div>
-    );
+    <div>
+        Home Page
+    </div>
+  );
 }
-
-export default HomePage;
