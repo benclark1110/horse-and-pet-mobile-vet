@@ -31,7 +31,7 @@ export default function BasicMenu() {
             aria-label="menu"
             sx={{ mr: 2 }}
           >
-            <MenuIcon />
+            <MenuIcon style={{"color": "#DAAD86"}}/>
           </IconButton>
       </Button>
       <Menu
