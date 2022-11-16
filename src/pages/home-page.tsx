@@ -3,21 +3,21 @@ import { Row, Col } from "reactstrap";
 
 export const HomePage: React.FC = () => {
     return (
-    <div>
-      <Row className="home-row">
-        <Col >
-          .col
-        </Col>
-      </Row>
-      <Row className="home-row">
-      <Col>
-          .col
-        </Col>
-      </Row>
-      <Row className="home-row">
+    <div className="home-main">
+      <Row className="home-row tan">
         <Col>
-          .col
+          Test
         </Col>
+      </Row>
+      <Row className="home-row green">
+        {/* <Col>
+          .col
+        </Col> */}
+      </Row>
+      <Row className="home-row red">
+        {/* <Col>
+          .col
+        </Col> */}
       </Row>
     </div>
 
@@ -25,5 +25,3 @@ export const HomePage: React.FC = () => {
 }
 
 export default HomePage
-
-// style={{"textAlign": "center", "backgroundColor": "#FBECC1", "color": "#DAAD86", "lineHeight": "430%"}}

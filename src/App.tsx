@@ -7,24 +7,21 @@ import {
 } from "react-router-dom";
 import { AboutPage, ContactPage, HomePage } from "./pages";
 import NavBar from './components/molecules/app-navbar/app-navbar';
-import { Container, Row, Col } from "reactstrap";
-
+import { Container } from "reactstrap";
 
 const App: React.FC = () => {
 
   return (
-    <div>
-      <NavBar/>
       <Container>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/contact" element={<ContactPage />} />
-        </Routes>
-      </BrowserRouter>
+        <NavBar/>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/contact" element={<ContactPage />} />
+          </Routes>
+        </BrowserRouter>
       </Container>
-    </div>
   );
 }
 
