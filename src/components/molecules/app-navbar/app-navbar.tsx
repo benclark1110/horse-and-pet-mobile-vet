@@ -6,7 +6,7 @@ import BasicMenu from '../menu';
 
 const NavBar: React.FC = () => {
     return (
-      <AppBar style={{"color": "#DAAD86", "backgroundColor": "#659DBD"}}>
+      <AppBar style={{"color": "#DAAD86", "backgroundColor": "#659DBD"}} elevation={0} >
         <Toolbar>
           <BasicMenu />
           <Typography variant="h4" component="div" sx={{ flexGrow: 1 }} style={{"textAlign": "center"}}>
