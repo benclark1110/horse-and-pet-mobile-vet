@@ -4,20 +4,20 @@ import { Row, Col } from "reactstrap";
 export const HomePage: React.FC = () => {
     return (
     <div className="home-main">
-      <Row className="home-row tan">
+      <Row className="tan">
         <Col>
-          Test
+          Test 1
         </Col>
       </Row>
-      <Row className="home-row green">
-        {/* <Col>
-          .col
-        </Col> */}
+      <Row className="green">
+      <Col>
+          Test 2
+        </Col>
       </Row>
-      <Row className="home-row red">
-        {/* <Col>
-          .col
-        </Col> */}
+      <Row className="red">
+        <Col>
+          Test 3
+        </Col>
       </Row>
     </div>
 
