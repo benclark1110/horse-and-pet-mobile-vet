@@ -17,7 +17,7 @@ const NavBar: React.FC = () => {
   return (
       <Navbar color="faded" light>
         <NavbarBrand href="/" className="me-auto">
-          Horse and Pet Mobile Vet
+          Horse & Pet Mobile Vet
         </NavbarBrand>
         <NavbarToggler onClick={toggleNavbar} className="me-2" />
         <Collapse isOpen={!collapsed} navbar>
@@ -26,9 +26,7 @@ const NavBar: React.FC = () => {
               <NavLink href="/components/">About Me</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">
-                My Clients
-              </NavLink>
+              <NavLink href="/components/">My Clients</NavLink>
             </NavItem>
           </Nav>
         </Collapse>
