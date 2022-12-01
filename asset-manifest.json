@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/horse-and-pet-mobile-vet/static/css/main.d730d550.css",
+    "main.js": "/horse-and-pet-mobile-vet/static/js/main.c6b9fb22.js",
+    "static/js/787.5ac94dfc.chunk.js": "/horse-and-pet-mobile-vet/static/js/787.5ac94dfc.chunk.js",
+    "index.html": "/horse-and-pet-mobile-vet/index.html",
+    "main.d730d550.css.map": "/horse-and-pet-mobile-vet/static/css/main.d730d550.css.map",
+    "main.c6b9fb22.js.map": "/horse-and-pet-mobile-vet/static/js/main.c6b9fb22.js.map",
+    "787.5ac94dfc.chunk.js.map": "/horse-and-pet-mobile-vet/static/js/787.5ac94dfc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d730d550.css",
+    "static/js/main.c6b9fb22.js"
+  ]
+}
