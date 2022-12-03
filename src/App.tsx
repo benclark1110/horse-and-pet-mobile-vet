@@ -21,7 +21,7 @@ const App: React.FC = () => {
         <NavBar/>
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<HomePage />} />
+            <Route path="/horse-and-pet-mobile-vet" element={<HomePage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/clients-page" element={<ClientsPage />} />

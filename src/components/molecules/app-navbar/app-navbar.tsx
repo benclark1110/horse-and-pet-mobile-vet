@@ -16,7 +16,7 @@ const NavBar: React.FC = () => {
 
   return (
       <Navbar color="faded" light>
-        <NavbarBrand href="/" className="me-auto">
+        <NavbarBrand href="/horse-and-pet-mobile-vet" className="me-auto">
           Horse & Pet Mobile Vet
         </NavbarBrand>
         <NavbarToggler onClick={toggleNavbar} className="me-2" />
