@@ -1,15 +1,24 @@
 {
   "files": {
-    "main.css": "/horse-and-pet-mobile-vet/static/css/main.d730d550.css",
-    "main.js": "/horse-and-pet-mobile-vet/static/js/main.c6b9fb22.js",
+    "main.css": "/horse-and-pet-mobile-vet/static/css/main.a79320ec.css",
+    "main.js": "/horse-and-pet-mobile-vet/static/js/main.c01cb975.js",
     "static/js/787.5ac94dfc.chunk.js": "/horse-and-pet-mobile-vet/static/js/787.5ac94dfc.chunk.js",
+    "static/media/horse.jpg": "/horse-and-pet-mobile-vet/static/media/horse.a0a929661d555ed26e8a.jpg",
+    "static/media/goat2.jpg": "/horse-and-pet-mobile-vet/static/media/goat2.8a39d1198e218de428cc.jpg",
+    "static/media/horses.jpg": "/horse-and-pet-mobile-vet/static/media/horses.f3c864ce70a337f75c0f.jpg",
+    "static/media/donkey.jpg": "/horse-and-pet-mobile-vet/static/media/donkey.1e816ca8587186dff8b2.jpg",
+    "static/media/goats.jpg": "/horse-and-pet-mobile-vet/static/media/goats.30cb296f75ccb42b1aab.jpg",
+    "static/media/llama.jpg": "/horse-and-pet-mobile-vet/static/media/llama.d339e1d3787ff98fbb1d.jpg",
+    "static/media/goat.jpg": "/horse-and-pet-mobile-vet/static/media/goat.e7b9000ffece8d573d09.jpg",
+    "static/media/puppies.jpg": "/horse-and-pet-mobile-vet/static/media/puppies.2c4993d00bc58502a4bf.jpg",
+    "static/media/poodles.jpg": "/horse-and-pet-mobile-vet/static/media/poodles.45bfecf58b85e088b418.jpg",
     "index.html": "/horse-and-pet-mobile-vet/index.html",
-    "main.d730d550.css.map": "/horse-and-pet-mobile-vet/static/css/main.d730d550.css.map",
-    "main.c6b9fb22.js.map": "/horse-and-pet-mobile-vet/static/js/main.c6b9fb22.js.map",
+    "main.a79320ec.css.map": "/horse-and-pet-mobile-vet/static/css/main.a79320ec.css.map",
+    "main.c01cb975.js.map": "/horse-and-pet-mobile-vet/static/js/main.c01cb975.js.map",
     "787.5ac94dfc.chunk.js.map": "/horse-and-pet-mobile-vet/static/js/787.5ac94dfc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d730d550.css",
-    "static/js/main.c6b9fb22.js"
+    "static/css/main.a79320ec.css",
+    "static/js/main.c01cb975.js"
   ]
 }
