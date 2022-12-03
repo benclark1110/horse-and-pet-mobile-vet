@@ -5,7 +5,12 @@ import {
   Routes,
   Route
 } from "react-router-dom";
-import { AboutPage, ContactPage, HomePage } from "./pages";
+import { 
+  AboutPage, 
+  ContactPage, 
+  HomePage, 
+  ClientsPage 
+} from "./pages";
 import NavBar from './components/molecules/app-navbar/app-navbar';
 import { Container } from "reactstrap";
 
@@ -19,6 +24,7 @@ const App: React.FC = () => {
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/contact" element={<ContactPage />} />
+            <Route path="/clients-page" element={<ClientsPage />} />
           </Routes>
         </BrowserRouter>
       </Container>

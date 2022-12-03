@@ -26,7 +26,7 @@ const NavBar: React.FC = () => {
               <NavLink href="/components/">About Me</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/components/">My Clients</NavLink>
+              <NavLink href="/clients-page">My Clients</NavLink>
             </NavItem>
           </Nav>
         </Collapse>

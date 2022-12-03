@@ -23,6 +23,14 @@ html, body {
   width: 100%;
 }
 
+.clients-main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  row-gap: 10px;
+}
+
 .row {
   padding: 20% 5% 20% 5%;
 }
@@ -31,14 +39,19 @@ html, body {
   text-align: center;
 }
 
-.tan{
+.tan {
   background-color: #FBECC1;
 }
 
-.green{
+.green {
   background-color: #8D8741;
 }
 
-.red{
+.red {
   background-color: #DAAD86;
+}
+
+.image {
+  height: 120px;
+  width: auto;
 }
