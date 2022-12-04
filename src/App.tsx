@@ -12,11 +12,13 @@ import {
   ClientsPage 
 } from "./pages";
 import NavBar from './components/molecules/app-navbar/app-navbar';
+import Footer from './components/molecules/app-footer/app-footer';
 import { Container } from "reactstrap";
 
 const App: React.FC = () => {
 
   return (
+    <div>
       <Container>
         <NavBar/>
         <BrowserRouter>
@@ -28,6 +30,8 @@ const App: React.FC = () => {
           </Routes>
         </BrowserRouter>
       </Container>
+      <Footer></Footer>
+    </div>
   );
 }
 

@@ -3,30 +3,20 @@ html, body {
   width: 100%;
   margin: 0;
   overflow-x: hidden;
+  min-height: 100vh;
 }
 
 .container {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0;
-  padding: 0;
-  width: 100%;
   min-width: 100%;
-}
-
-.navbar {
-  width: 100%;
-  text-align: right;
-}
-
-.home-main {
-  width: 100%;
+  justify-content: space-between;
+  min-height: 100vh;
+  margin-bottom: -100px;
+  padding-bottom: 100px;
 }
 
 .clients-main {
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
   justify-content: space-between;
   row-gap: 10px;
 }
@@ -54,4 +44,9 @@ html, body {
 .image {
   height: 120px;
   width: auto;
+}
+
+.footer {
+  background-color: green;
+  height: 100px;
 }

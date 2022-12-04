@@ -3,7 +3,7 @@ import { Row, Col } from "reactstrap";
 
 export const HomePage: React.FC = () => {
     return (
-    <div className="home-main">
+    <div>
       <Row className="tan">
         <Col>
           Test 1
