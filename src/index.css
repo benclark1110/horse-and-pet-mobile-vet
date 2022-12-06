@@ -22,16 +22,17 @@ html, body {
 .clients-main {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  row-gap: 10px;
+  justify-content: center;
+  gap: 10px;
 }
 
 .row {
-  padding: 20% 5% 20% 5%;
+  padding: 2% 3% 2% 3%;
 }
 
 .col {
   text-align: center;
+  line-height: 2;
 }
 
 .tan {
@@ -43,8 +44,20 @@ html, body {
 }
 
 .image {
-  height: 120px;
+  height: 220px;
   width: auto;
+}
+
+.homeImage {
+  height: 500px;
+  width: auto;
+}
+
+@media only screen and (max-width: 576px) {
+  .homeImage {
+    height: 300px;
+    width: auto;
+  }
 }
 
 .footer {
