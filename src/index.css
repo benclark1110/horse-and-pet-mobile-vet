@@ -20,6 +20,7 @@ html, body {
 }
 
 .clients-main {
+  padding: 10px 0 10px 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

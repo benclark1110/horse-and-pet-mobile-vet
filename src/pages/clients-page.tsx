@@ -11,7 +11,7 @@ import puppies from "../images/puppies.jpg"
 
 export const ClientsPage: React.FC = () => {
     return (
-    <div className="clients-main">
+    <div className="clients-main tan">
       <img className="image" alt="donkey" src={donkey} />
       <img className="image" alt="goat" src={goat} />
       <img className="image" alt="goat2" src={goat2} />

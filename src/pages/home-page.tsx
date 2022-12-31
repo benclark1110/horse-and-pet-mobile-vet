@@ -5,14 +5,18 @@ import home_image from "../images/home_image.jpg"
 export const HomePage: React.FC = () => {
     return (
     <div>
+      {/* <Row className="tan">
+        <Col>
+          <h2>Mobile Equine and Housecall Service</h2>
+        </Col>
+      </Row> */}
       <Row className="tan">
-        {/* TO DO:  Name/Picture  */}
         <Col>
           <img className="homeImage" alt="homeImage" src={home_image} />
         </Col>
+      </Row>
+      <Row className="tan">
         <Col>
-          <h2>Mobile Equine and Housecall Service</h2>
-          <br/>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
           Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
@@ -20,7 +24,6 @@ export const HomePage: React.FC = () => {
         </Col>
       </Row>
       <Row className="green">
-        {/* TO DO:  Services  */}
         <Col>
           <h3>Dogs & Cats</h3>
           <ul>
@@ -43,7 +46,6 @@ export const HomePage: React.FC = () => {
         </Col>
       </Row>
       <Row className="tan">
-        {/* TO DO:  Contact/Appt info  */}
         <Col>
           Test 3
         </Col>
