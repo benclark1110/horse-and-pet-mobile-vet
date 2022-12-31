@@ -17,7 +17,6 @@ export const ClientsPage: React.FC = () => {
       <img className="image" alt="goat2" src={goat2} />
       <img className="image" alt="goats" src={goats} />
       <img className="image" alt="horse" src={horse} />
-      <img className="image" alt="horses" src={horses} />
       <img className="image" alt="llama" src={llama} />
       <img className="image" alt="poodles" src={poodles} />
       <img className="image" alt="goat" src={goat} />
