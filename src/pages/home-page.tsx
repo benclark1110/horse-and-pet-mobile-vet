@@ -7,7 +7,7 @@ export const HomePage: React.FC = () => {
     <div>
       <Row className="flxCol">
         <Col>
-          <img className="test-pic" src={home_image} />
+          <img className="test-pic" alt="test alt" src={home_image} />
         </Col>
         <Col>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 

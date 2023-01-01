@@ -20,6 +20,7 @@ export const ClientsPage: React.FC = () => {
       <img className="image" alt="llama" src={llama} />
       <img className="image" alt="poodles" src={poodles} />
       <img className="image" alt="goat" src={goat} />
+      <img className="image" alt="horses" src={horses} />
     </div>
 
   );

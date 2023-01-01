@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
         <a href="mailto:docsage@carolina.rr.com?subject=Hi Dr. Sage!">
           <MdEmail size={37}/>
         </a>  
-        <a target="_blank" href="https://www.facebook.com/horseandpetmobilevet">
+        <a target="_blank" href="https://www.facebook.com/horseandpetmobilevet" rel="noreferrer">
           <BsFacebook size={30}/>
         </a>
     </footer>

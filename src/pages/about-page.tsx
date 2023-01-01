@@ -9,7 +9,7 @@ export const AboutPage: React.FunctionComponent = () => {
     <div>
         <Row className="flxCol">
             <Col>
-                <img className="test-pic" src={dogs} />
+                <img className="test-pic" alt="test alt" src={dogs} />
             </Col>
             <Col>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -26,7 +26,7 @@ export const AboutPage: React.FunctionComponent = () => {
             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </Col>
             <Col>
-                <img className="test-pic" src={dogs} />
+                <img className="test-pic" alt="test alt" src={dogs} />
             </Col>
         </Row>
     </div>
