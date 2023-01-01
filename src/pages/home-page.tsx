@@ -5,11 +5,6 @@ import home_image from "../images/home_image.jpg"
 export const HomePage: React.FC = () => {
     return (
     <div>
-      {/* <Row className="tan">
-        <Col>
-          <h2>Mobile Equine and Housecall Service</h2>
-        </Col>
-      </Row> */}
       <Row className="tan">
         <Col>
           <img className="homeImage" alt="homeImage" src={home_image} />

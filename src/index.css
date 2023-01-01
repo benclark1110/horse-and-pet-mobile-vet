@@ -16,7 +16,7 @@ html, body {
 
 .navbar {
   text-align: right;
-  background-color: #DAAD86;
+  background-color: #ADE6A0;
 }
 
 .clients-main {
@@ -37,11 +37,11 @@ html, body {
 }
 
 .tan {
-  background-color: #FBECC1;
+  background-color: #dffee7;
 }
 
 .green {
-  background-color: #8D8741;
+  background-color: #a8ccca;
 }
 
 .image {
@@ -62,7 +62,7 @@ html, body {
 }
 
 .footer {
-  background-color: #DAAD86;
+  background-color: #ADE6A0;
   height: 100px;
   display:flex;
   flex-direction: column;

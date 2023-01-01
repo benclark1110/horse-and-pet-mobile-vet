@@ -23,10 +23,10 @@ const NavBar: React.FC = () => {
         <Collapse isOpen={!collapsed} navbar>
           <Nav navbar>
             <NavItem>
-              <NavLink href="/components/">About Me</NavLink>
+              <NavLink href="/about/">About Me</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/clients-page">My Clients</NavLink>
+              <NavLink href="/clients">My Clients</NavLink>
             </NavItem>
           </Nav>
         </Collapse>
