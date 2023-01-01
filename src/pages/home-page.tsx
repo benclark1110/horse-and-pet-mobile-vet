@@ -5,12 +5,10 @@ import home_image from "../images/home_image.jpg"
 export const HomePage: React.FC = () => {
     return (
     <div>
-      <Row className="tan">
+      <Row className="flxCol">
         <Col>
-          <img className="homeImage" alt="homeImage" src={home_image} />
+          <img className="test-pic" src={home_image} />
         </Col>
-      </Row>
-      <Row className="tan">
         <Col>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
@@ -40,7 +38,7 @@ export const HomePage: React.FC = () => {
           </ul>
         </Col>
       </Row>
-      <Row className="tan">
+      <Row>
         <Col>
           Test 3
         </Col>

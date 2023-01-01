@@ -35,10 +35,8 @@ html, body {
 .col {
   text-align: center;
   line-height: 2;
-}
-
-.tan {
   display: flex;
+  align-items: center;
 }
 
 .green {
@@ -48,18 +46,6 @@ html, body {
 .image {
   height: 220px;
   width: auto;
-}
-
-.homeImage {
-  height: 500px;
-  width: auto;
-}
-
-@media only screen and (max-width: 576px) {
-  .homeImage {
-    height: 300px;
-    width: auto;
-  }
 }
 
 .footer {
@@ -81,22 +67,9 @@ html, body {
   height: auto;
 }
 
-.test-col {
-  display: flex;
-  align-items: center;
-}
-
-@media screen and (max-width: 576px) {
-  .blah {
+@media screen and (max-width: 700px) {
+  .flxCol {
     flex-direction: column;
-  }
-
-  .blah2 {
-    display: flex;
-  }
-
-  .o1 {
-    order: 1;
   }
 
   .o2 {
