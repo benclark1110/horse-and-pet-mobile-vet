@@ -5,6 +5,7 @@ html, body {
   overflow-x: hidden;
   min-height: 100vh;
   background-color: #dffee7;
+  color: #8C8C8C;
 }
 
 .container {
@@ -52,14 +53,12 @@ html, body {
   background-color: #ADE6A0;
   height: 100px;
   display:flex;
-  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
 }
 
-.item {
-  flex-grow: 1;
-  display:flex; 
-  align-items:center;
+.footer > a {
+  color: #8C8C8C;
 }
 
 .test-pic {

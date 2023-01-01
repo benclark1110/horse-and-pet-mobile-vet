@@ -16,7 +16,7 @@ const NavBar: React.FC = () => {
 
   return (
       <Navbar color="faded" light>
-        <NavbarBrand href="/horse-and-pet-mobile-vet" style={{fontSize: '1.6em', marginLeft: '0.5rem'}}>
+        <NavbarBrand href="/horse-and-pet-mobile-vet" style={{fontSize: '1.6em', marginLeft: '0.5rem', color: '#8C8C8C'}}>
           Horse & Pet Mobile Vet
         </NavbarBrand>
         <NavbarToggler onClick={toggleNavbar} className="me-2" />
