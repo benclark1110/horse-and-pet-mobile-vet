@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/horse-and-pet-mobile-vet/static/css/main.61b3f0af.css",
-    "main.js": "/horse-and-pet-mobile-vet/static/js/main.0e85b3b7.js",
+    "main.css": "/horse-and-pet-mobile-vet/static/css/main.90929e7b.css",
+    "main.js": "/horse-and-pet-mobile-vet/static/js/main.69c6fc85.js",
     "static/js/787.5ac94dfc.chunk.js": "/horse-and-pet-mobile-vet/static/js/787.5ac94dfc.chunk.js",
     "static/media/horse.jpg": "/horse-and-pet-mobile-vet/static/media/horse.a0a929661d555ed26e8a.jpg",
     "static/media/goat2.jpg": "/horse-and-pet-mobile-vet/static/media/goat2.8a39d1198e218de428cc.jpg",
@@ -14,12 +14,12 @@
     "static/media/puppies.jpg": "/horse-and-pet-mobile-vet/static/media/puppies.2c4993d00bc58502a4bf.jpg",
     "static/media/poodles.jpg": "/horse-and-pet-mobile-vet/static/media/poodles.45bfecf58b85e088b418.jpg",
     "index.html": "/horse-and-pet-mobile-vet/index.html",
-    "main.61b3f0af.css.map": "/horse-and-pet-mobile-vet/static/css/main.61b3f0af.css.map",
-    "main.0e85b3b7.js.map": "/horse-and-pet-mobile-vet/static/js/main.0e85b3b7.js.map",
+    "main.90929e7b.css.map": "/horse-and-pet-mobile-vet/static/css/main.90929e7b.css.map",
+    "main.69c6fc85.js.map": "/horse-and-pet-mobile-vet/static/js/main.69c6fc85.js.map",
     "787.5ac94dfc.chunk.js.map": "/horse-and-pet-mobile-vet/static/js/787.5ac94dfc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.61b3f0af.css",
-    "static/js/main.0e85b3b7.js"
+    "static/css/main.90929e7b.css",
+    "static/js/main.69c6fc85.js"
   ]
 }
