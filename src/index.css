@@ -7,25 +7,52 @@
   --text: #3b3b34;
 }
 
-html { scroll-behavior: smooth; }
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   margin: 0;
   background: var(--cream);
   color: var(--text);
-  font-family: 'Nunito', 'Segoe UI', system-ui, sans-serif;
+  font-family: "Nunito", "Segoe UI", system-ui, sans-serif;
   line-height: 1.7;
 }
 
-section[id] { scroll-margin-top: 70px; }
+section[id] {
+  scroll-margin-top: var(--nav-height, 70px);
+}
 
-h1, h2, h3 { color: var(--green); font-weight: 700; }
-h2 { margin-bottom: 1.5rem; text-align: center; }
-a { color: var(--accent); }
+h1,
+h2,
+h3 {
+  color: var(--green);
+  font-weight: 700;
+}
+h2 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+a {
+  color: var(--accent);
+}
 
-.site-nav { background: var(--green-light); padding: 0.5rem 1rem; }
-.site-nav .navbar-brand { color: var(--green); font-weight: 700; font-size: 1.4em; }
-.site-nav .nav-link { color: var(--text); font-weight: 600; }
+.site-nav {
+  background: var(--green);
+  padding: 0.5rem 1rem;
+}
+.site-nav .navbar-brand {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.4em;
+}
+.site-nav .nav-link {
+  color: #fff;
+  font-weight: 600;
+}
+.site-nav .navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.6);
+}
 
 .hero {
   background-size: cover;
@@ -44,14 +71,30 @@ a { color: var(--accent); }
   text-align: center;
   padding: 2rem 1rem;
 }
-.hero-overlay h1 { color: #fff; font-size: clamp(2rem, 6vw, 3.5rem); }
-.hero-overlay p { font-size: 1.4rem; }
-.hero-buttons { display: flex; gap: 1rem; }
+.hero-overlay h1 {
+  color: #fff;
+  font-size: clamp(2rem, 6vw, 3.5rem);
+}
+.hero-overlay p {
+  font-size: 1.4rem;
+}
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+}
 
-.section { padding: 4rem 0; }
-.section-alt { background: var(--green-light); }
+.section {
+  padding: 4rem 0;
+}
+.section-alt {
+  background: var(--green-light);
+}
 
-.rounded-img { width: 100%; height: auto; border-radius: 16px; }
+.rounded-img {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+}
 
 .card-box {
   background: #fff;
@@ -66,10 +109,19 @@ a { color: var(--accent); }
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
   gap: 1rem;
 }
-.gallery-grid img { height: 240px; object-fit: cover; }
+.gallery-grid img {
+  height: 240px;
+  object-fit: cover;
+}
 
-.contact-list { list-style: none; padding: 0; font-size: 1.2rem; }
-.contact-list li { margin-bottom: 0.5rem; }
+.contact-list {
+  list-style: none;
+  padding: 0;
+  font-size: 1.2rem;
+}
+.contact-list li {
+  margin-bottom: 0.5rem;
+}
 
 .footer {
   background: var(--green);
@@ -77,4 +129,19 @@ a { color: var(--accent); }
   text-align: center;
   padding: 1.5rem 1rem;
 }
-.footer a { color: #fff; margin: 0 0.75rem; }
+.footer a {
+  color: #fff;
+  margin: 0 0.75rem;
+}
+
+/* On mobile the menu overlays the page so opening it never shifts layout */
+@media (max-width: 767.98px) {
+  .site-nav .navbar-collapse {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--green);
+    padding: 0 1rem 0.5rem;
+  }
+}
