@@ -13,6 +13,7 @@ import {
   heroImage,
   services,
 } from "../../data/content";
+import "./style.css";
 
 export const Hero: React.FC = () => (
   <section

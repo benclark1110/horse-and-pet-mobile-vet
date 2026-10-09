@@ -6,6 +6,7 @@ import {
 } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { contact } from "../../../data/content";
+import "./style.css";
 
 const Footer: React.FC = () => (
   <footer className="footer">

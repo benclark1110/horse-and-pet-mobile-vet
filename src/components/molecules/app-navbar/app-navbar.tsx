@@ -8,6 +8,7 @@ import {
   NavItem,
   NavLink,
 } from "reactstrap";
+import "./style.css";
 
 const links = [
   { href: "#about", label: "About" },
@@ -26,7 +27,7 @@ const NavBar: React.FC = () => {
     const update = () =>
       document.documentElement.style.setProperty(
         "--nav-height",
-        `${el.offsetHeight}px`
+        `${el.offsetHeight}px`,
       );
     update();
     if (typeof ResizeObserver === "undefined") return;

@@ -1,0 +1,28 @@
+.site-nav {
+  background: var(--green);
+  padding: 0.5rem 1rem;
+}
+.site-nav .navbar-brand {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.4em;
+}
+.site-nav .nav-link {
+  color: #fff;
+  font-weight: 600;
+}
+.site-nav .navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+/* On mobile the menu overlays the page so opening it never shifts layout */
+@media (max-width: 767.98px) {
+  .site-nav .navbar-collapse {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--green);
+    padding: 0 1rem 0.5rem;
+  }
+}
