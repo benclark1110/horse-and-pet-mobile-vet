@@ -1,37 +1,31 @@
 import React, { useState } from 'react';
-import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink,
-} from 'reactstrap';
+import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
+
+const links = [
+  { href: '#about', label: 'About' },
+  { href: '#services', label: 'Services' },
+  { href: '#gallery', label: 'Gallery' },
+  { href: '#contact', label: 'Contact' },
+];
 
 const NavBar: React.FC = () => {
-  const [collapsed, setCollapsed] = useState(true);
-
-  const toggleNavbar = () => setCollapsed(!collapsed);
+  const [open, setOpen] = useState(false);
 
   return (
-      <Navbar color="faded" light>
-        <NavbarBrand href="/horse-and-pet-mobile-vet" style={{fontSize: '1.6em', marginLeft: '0.5rem', color: '#8C8C8C'}}>
-          Horse & Pet Mobile Vet
-        </NavbarBrand>
-        <NavbarToggler onClick={toggleNavbar} className="me-2" />
-        <Collapse isOpen={!collapsed} navbar>
-          <Nav navbar>
-            <NavItem>
-              <NavLink href="/about/">About Me</NavLink>
+    <Navbar expand="md" className="site-nav sticky-top">
+      <NavbarBrand href="#home">Horse & Pet Mobile Vet</NavbarBrand>
+      <NavbarToggler onClick={() => setOpen(!open)} />
+      <Collapse isOpen={open} navbar>
+        <Nav navbar className="ms-auto">
+          {links.map((l) => (
+            <NavItem key={l.href}>
+              <NavLink href={l.href} onClick={() => setOpen(false)}>{l.label}</NavLink>
             </NavItem>
-            <NavItem>
-              <NavLink href="/clients">My Clients</NavLink>
-            </NavItem>
-          </Nav>
-        </Collapse>
-      </Navbar>
+          ))}
+        </Nav>
+      </Collapse>
+    </Navbar>
   );
-}
+};
 
-export default NavBar
+export default NavBar;
