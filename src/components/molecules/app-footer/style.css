@@ -1,0 +1,10 @@
+.footer {
+  background: var(--green);
+  color: #fff;
+  text-align: center;
+  padding: 1.5rem 1rem;
+}
+.footer a {
+  color: #fff;
+  margin: 0 0.75rem;
+}
