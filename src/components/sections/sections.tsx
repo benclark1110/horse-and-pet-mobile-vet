@@ -1,12 +1,6 @@
 import * as React from "react";
 import { Container, Row, Col } from "reactstrap";
 import {
-  BsTelephoneFill,
-  BsFillChatTextFill,
-  BsFacebook,
-} from "react-icons/bs";
-import { MdEmail } from "react-icons/md";
-import {
   aboutImage,
   contact,
   gallery,
@@ -116,41 +110,6 @@ export const Gallery: React.FC = () => (
           />
         ))}
       </div>
-    </Container>
-  </section>
-);
-
-export const Contact: React.FC = () => (
-  <section id="contact" className="section section-alt">
-    <Container>
-      <h2>Contact</h2>
-      <ul className="contact-list">
-        <li>
-          <BsTelephoneFill />{" "}
-          <a href={`tel:${contact.phone}`}>{contact.phone}</a>
-        </li>
-        <li>
-          <BsFillChatTextFill /> <a href={`sms:${contact.phone}`}>Text us</a>
-        </li>
-        <li>
-          <MdEmail />{" "}
-          <a href={`mailto:${contact.email}?subject=Hi Dr. Sage!`}>
-            {contact.email}
-          </a>
-        </li>
-        <li>
-          <BsFacebook />{" "}
-          <a target="_blank" rel="noreferrer" href={contact.facebook}>
-            Facebook
-          </a>
-        </li>
-      </ul>
-      <p>
-        <strong>Service area:</strong> {contact.serviceArea}
-      </p>
-      <p>
-        <strong>Hours:</strong> {contact.hours}
-      </p>
     </Container>
   </section>
 );

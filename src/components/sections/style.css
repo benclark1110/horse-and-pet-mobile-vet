@@ -61,12 +61,3 @@ section[id] {
   height: 240px;
   object-fit: cover;
 }
-
-.contact-list {
-  list-style: none;
-  padding: 0;
-  font-size: 1.2rem;
-}
-.contact-list li {
-  margin-bottom: 0.5rem;
-}

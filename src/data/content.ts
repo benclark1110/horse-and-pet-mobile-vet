@@ -14,7 +14,6 @@ export const contact = {
   phone: "704-231-8993",
   email: "docsage@carolina.rr.com",
   facebook: "https://www.facebook.com/horseandpetmobilevet",
-  serviceArea: "TODO: service area",
   hours: "Monday-Friday: 7:30 AM - 5:30 PM & Saturday: 7:30 AM -12:00 PM",
 };
 
