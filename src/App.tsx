@@ -1,7 +1,7 @@
-import * as React from 'react';
-import NavBar from './components/molecules/app-navbar/app-navbar';
-import Footer from './components/molecules/app-footer/app-footer';
-import { Hero, About, Services, Gallery, Contact } from './components/sections';
+import * as React from "react";
+import NavBar from "./components/molecules/app-navbar/app-navbar";
+import Footer from "./components/molecules/app-footer/app-footer";
+import { Hero, About, Services, Gallery } from "./components/sections";
 
 const App: React.FC = () => (
   <>
@@ -11,7 +11,6 @@ const App: React.FC = () => (
       <About />
       <Services />
       <Gallery />
-      <Contact />
     </main>
     <Footer />
   </>
