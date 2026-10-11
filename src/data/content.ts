@@ -8,13 +8,14 @@ import horses from "../images/horses.jpg";
 import llama from "../images/llama.jpg";
 import poodles from "../images/poodles.jpg";
 import puppies from "../images/puppies.jpg";
+import horseDogs from "../images/horseDogs.jpeg";
 
 export const contact = {
   phone: "704-231-8993",
   email: "docsage@carolina.rr.com",
   facebook: "https://www.facebook.com/horseandpetmobilevet",
   serviceArea: "TODO: service area",
-  hours: "TODO: hours",
+  hours: "Monday-Friday: 7:30 AM - 5:30 PM & Saturday: 7:30 AM -12:00 PM",
 };
 
 export const heroImage = dogs;
@@ -53,4 +54,5 @@ export const gallery = [
   { src: poodles, alt: "Poodles" },
   { src: goat, alt: "Goat portrait" },
   { src: horses, alt: "Horses in a pasture" },
+  { src: horseDogs, alt: "Horse and dogs" },
 ];

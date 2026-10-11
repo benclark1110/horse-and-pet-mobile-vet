@@ -52,8 +52,26 @@ export const About: React.FC = () => (
         </Col>
         <Col md={7}>
           <p>
-            TODO: Short bio, credentials, and what drew Dr. Sage to mobile
-            veterinary medicine.
+            Dr. Alexis Sage has over 35 years of experience in personalized
+            veterinary care. As a mobile veterinarian, Dr. Sage provides on-site
+            care for horses, cats, dogs, and other animals in Mecklenburg,
+            Union, Stanly, and Anson Counties, as well as adjoining areas of
+            South Carolina. Dr. Sage’s mobile practice offers personalized,
+            individual care for your animals by a skilled general practitioner
+            in the comfort of their own home.
+          </p>
+          <p>
+            Dr. Sage is a graduate of Penn State University (’79) and the
+            University of Florida Veterinary School (’88). Before relocating to
+            Charlotte and opening her practice in 2000, Dr. Sage participated in
+            equine production research programs in Maryland and Florida,
+            practiced as a Regulatory Veterinarian at Delaware Park Racetrack,
+            and owned an equine and small animal practice in Delaware.
+          </p>
+          <p>
+            She is a member of the American Association of Equine Practitioners,
+            American Veterinary Medical Association, and the North Carolina
+            Veterinary Medical Association.
           </p>
         </Col>
       </Row>
